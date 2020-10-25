@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+<div style="overflow:auto">
+<h1>Login Strana</h1>
+<ul id="meni" >
+      <li><a  href="index.html">Početna</a></li>
+      <li><a class="current" href="Login.html">Login</a></li>
+      <li><a href="#">Zaštita</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="O nama.html">O nama</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
+	<div id="izmedju" class="oblik" >
+	<form id="login" method="get" action="login.php">
+		<label for="Uname"><b>User name</b> </label>
+		<input type="text" name="uname" id="Uname" placeholder="Enter Username" required>
+		<br><br>
+		<label for="Pass"><b>Password</b></label>
+		<input type="Password" name="Pass" id="Pass" placeholder="Enter Password" required>
+		<br>
+		<button type="sumbit">Login</button>
+		<br>
+		<label>
+		<input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+		<br><br>
+		Forgot <a href="#" text-align:right>Password</a>
+	</form>
+	</div>	
+</div>
+
+
+</body>
+
+
+</html>

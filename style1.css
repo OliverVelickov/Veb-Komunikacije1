@@ -1,0 +1,11 @@
+* {
+	margin:0;
+	padding:0;
+	outline:0
+}
+
+body {
+	font:11px Georgia;
+	background:white url(../images/bg.jpg) no-repeat top ;
+	color:grey;
+}
